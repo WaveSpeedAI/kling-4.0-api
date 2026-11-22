@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kling-4-0-api"
+version = "0.1.0"
+description = "Kling 4.0 API — Python wrapper for the WaveSpeedAI hosted endpoints"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = ["wavespeed>=2.0.5"]
+
+[project.urls]
+Homepage = "https://wavespeed.ai/kling-4-api"
+Repository = "https://github.com/WaveSpeedAI/kling-4.0-api"
+
+[tool.setuptools]
+py-modules = ["kling_api"]
